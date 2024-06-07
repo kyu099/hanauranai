@@ -18,7 +18,6 @@ yellow.src = "yellow-circle.png"
 let petals = [];
 
 let n = parseInt(Math.random()*10 + 9);
-console.log(n);
 
 for(let i=0; i < n; i++) {
     petals.push({num:i, drop:false});
